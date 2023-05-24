@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/AstroNvim/astrocommunity/compare/v1.11.0...v1.12.0) (2023-05-24)
+
+
+### Features
+
+* **startup:** add fsplash plugin ([#221](https://github.com/AstroNvim/astrocommunity/issues/221)) ([b88a6e6](https://github.com/AstroNvim/astrocommunity/commit/b88a6e68c68b5fc5b780c767d8c0ba8cd360198e))
+
 ## [1.11.0](https://github.com/AstroNvim/astrocommunity/compare/v1.10.0...v1.11.0) (2023-05-24)
 
 
