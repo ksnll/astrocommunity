@@ -40,8 +40,7 @@ return {
         local null_ls = require "null-ls"
         null_ls.register(null_ls.builtins.formatting.prettierd.with {
           condition = function(util)
-            return util.root_has_file "package.json"
-              or util.root_has_file ".prettierrc"
+            return util.root_has_file ".prettierrc"
               or util.root_has_file ".prettierrc.json"
               or util.root_has_file ".prettierrc.js"
           end,
@@ -52,8 +51,7 @@ return {
         local null_ls = require "null-ls"
         null_ls.register(null_ls.builtins.diagnostics.eslint_d.with {
           condition = function(util)
-            return util.root_has_file "package.json"
-              or util.root_has_file ".eslintrc.json"
+            return util.root_has_file ".eslintrc.json"
               or util.root_has_file ".eslintrc.js"
           end,
         })
